@@ -1,7 +1,7 @@
 function login(){
     let uname = document.querySelector("#uname").value
     let pword = document.querySelector("#pword").value
-    if(uname == "abcd" && pword == "1234"){
+    if(uname == "purshottam25" && pword == "purshottam@25"){
         alert("login successfull");
     }
     else{
