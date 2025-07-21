@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(68, 161, 241);
+}
+.login form{
+    display: grid;
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 15px;
+    border-radius: 20px;
+}
+.login button{
+    background-color: rgb(68, 161, 241);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login label{
+    padding: 10px;
+}
+
+.password-container{
+    position: relative;
+    width: 100%;
+}
+
+input{
+    height: 23px;
+}
+
+.password-container input{
+    width: 300px;
+}
+
+.password-container img{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-left: 285px;
+    margin-top: 8px;
+    cursor: pointer;
+}
